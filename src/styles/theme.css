@@ -1,0 +1,51 @@
+:root {
+  --br30-primary: #00ff88;
+  --br30-primary-soft: rgba(0, 255, 136, 0.14);
+  --br30-danger: #ff4d4f;
+  --br30-warning: #ffb020;
+  --br30-info: #3ba7ff;
+
+  --br30-bg: #050706;
+  --br30-surface: #0b1110;
+  --br30-surface-2: #111a17;
+  --br30-card: #0d1512;
+  --br30-border: rgba(255, 255, 255, 0.1);
+  --br30-text: #f4fff9;
+  --br30-muted: #94a39b;
+  --br30-shadow: 0 16px 45px rgba(0, 0, 0, 0.35);
+}
+
+[data-theme="light"] {
+  --br30-bg: #f5f8f6;
+  --br30-surface: #ffffff;
+  --br30-surface-2: #edf3f0;
+  --br30-card: #ffffff;
+  --br30-border: rgba(10, 40, 25, 0.12);
+  --br30-text: #07110d;
+  --br30-muted: #5f7068;
+  --br30-shadow: 0 16px 45px rgba(20, 60, 35, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--br30-bg);
+  color: var(--br30-text);
+  font-family: Inter, system-ui, Arial, sans-serif;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
