@@ -8,13 +8,13 @@ const brokers = [
   },
   {
     name: "Zerodha",
-    status: "Coming Soon",
-    color: "orange",
+    status: "Supported",
+    color: "green",
   },
   {
     name: "Dhan",
-    status: "Coming Soon",
-    color: "orange",
+    status: "Supported",
+    color: "green",
   },
   {
     name: "Angel One",
@@ -25,6 +25,11 @@ const brokers = [
     name: "Fyers",
     status: "Coming Soon",
     color: "orange",
+  },
+  {
+    name: "Delta Exchange",
+    status: "Supported",
+    color: "green",
   },
 ];
 

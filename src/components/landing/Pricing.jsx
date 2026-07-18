@@ -61,7 +61,7 @@ const getSubPrice = (plan, billing) => {
 };
 
 export default function Pricing() {
-  const [billing, setBilling] = useState(BILLING.YEARLY);
+  const [billing, setBilling] = useState(BILLING.MONTHLY);
 
   return (
     <>
