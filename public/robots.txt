@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://terminal.br30group.com/sitemap.xml
+Sitemap: https://br30-algo-terminal-f.vercel.app/sitemap.xml
