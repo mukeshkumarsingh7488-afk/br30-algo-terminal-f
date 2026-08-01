@@ -139,6 +139,7 @@ export default function Footer() {
 
           <div className="footer-links">
             <h4>Legal</h4>
+            <Link to={ROUTES.ABOUT}>About Us</Link>
             <Link to={ROUTES.PRIVACY_POLICY}>Privacy Policy</Link>
             <Link to={ROUTES.TERMS_CONDITIONS}>Terms & Conditions</Link>
             <Link to={ROUTES.REFUND_POLICY}>Refund Policy</Link>
@@ -156,9 +157,9 @@ export default function Footer() {
             <span>
               <i className="fa-solid fa-location-dot"></i> Bangalore, India
             </span>
-            <span>
+            <a href="https://br-30-group-com.vercel.app/contact" target="_blank" rel="noopener noreferrer">
               <i className="fa-solid fa-building"></i> BR30 Group
-            </span>
+            </a>
 
             <div className="footer-status">
               <strong>
