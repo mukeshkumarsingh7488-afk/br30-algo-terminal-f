@@ -60,17 +60,40 @@
       {
         "@context": "https://schema.org",
         "@graph": [
-          { "@type": "Organization", "@id": "https://br30-algo-terminal-f.vercel.app/#organization", "name": "BR30 Algo Terminal", "alternateName": "BR30 Algo", "url": "https://br30-algo-terminal-f.vercel.app/", "logo": "https://br30-algo-terminal-f.vercel.app/android-chrome-512x512.png", "founder": { "@type": "Person", "name": "Mukesh Raj" }, "brand": [{ "@type": "Brand", "name": "BR30 Algo Terminal" }], "areaServed": "Worldwide", "contactPoint": { "@type": "ContactPoint", "contactType": "customer support", "email": "support.br30trader@gmail.com", "telephone": "+91-6200986380", "areaServed": "Worldwide", "availableLanguage": ["Hindi", "English"] }, "sameAs": ["https://www.facebook.com/share/1DDJYGYYDf/", "https://www.instagram.com/br30Traderofficial", "https://www.youtube.com/@br30traderofficial", "https://t.me/+hBAT4kWo63A4ZWY1", "https://chat.whatsapp.com/B4t82SWBcgOIZTeQXp1wDI", "https://www.threads.com/@br30traderofficial", "https://x.com/MukeshKuma48159", "https://www.linkedin.com/in/mukeshraj-br30/"] },
-          { "@type": "WebSite", "@id": "https://br30-algo-terminal-f.vercel.app/#website", "name": "BR30 Algo Terminal", "url": "https://br30-algo-terminal-f.vercel.app/", "publisher": { "@id": "https://br30-algo-terminal-f.vercel.app/#organization" }, "description": "BR30 Algo Terminal is a professional algorithmic trading platform for strategy building, backtesting, paper trading, risk management and broker connectivity.", "inLanguage": "en" },
-          { "@type": "SoftwareApplication", "name": "BR30 Algo Terminal", "applicationCategory": "FinanceApplication", "operatingSystem": "Web", "url": "https://br30-algo-terminal-f.vercel.app/", "creator": { "@id": "https://br30-algo-terminal-f.vercel.app/#organization" }, "description": "Professional algo trading platform for backtesting, paper trading, automation and broker connectivity." }
+          {
+            "@type": "Organization",
+            "@id": "https://br30-algo-terminal-f.vercel.app/#organization",
+            "name": "BR30 Algo Terminal",
+            "alternateName": ["BR30 Algo", "BR30 Algorithmic Trading Platform"],
+            "url": "https://br30-algo-terminal-f.vercel.app/",
+            "logo": { "@type": "ImageObject", "url": "https://br30-algo-terminal-f.vercel.app/android-chrome-512x512.png", "width": 512, "height": 512 },
+            "description": "BR30 Algo Terminal is a professional algorithmic trading platform for strategy building, backtesting, paper trading, broker connectivity, risk management and automated trade execution.",
+            "founder": { "@id": "https://br30-algo-terminal-f.vercel.app/#person" },
+            "parentOrganization": { "@type": "Organization", "name": "BR30 GROUP", "url": "https://br-30-group-com.vercel.app/" },
+            "brand": [
+              { "@type": "Brand", "name": "BR30 Algo Terminal", "url": "https://br30-algo-terminal-f.vercel.app/" },
+              { "@type": "Brand", "name": "BR30 Trader", "url": "https://my-frontend-eight-roan.vercel.app/" },
+              { "@type": "Brand", "name": "BR30 Market Scanner", "url": "https://br30marketscanner-com-frontade.vercel.app/" },
+              { "@type": "Brand", "name": "BR30 Kart", "url": "https://br-30-kart.vercel.app/" },
+              { "@type": "Brand", "name": "BR30 FoodOS", "url": "https://br-30-food-os-f.vercel.app/" },
+              { "@type": "Brand", "name": "BR30 QR Studio", "url": "https://br-30-qr-studio-xi.vercel.app/" },
+              { "@type": "Brand", "name": "BR30 Founder", "url": "https://br30-com.vercel.app/" },
+              { "@type": "Brand", "name": "BR30 Algo", "url": "https://br30algo-com.vercel.app/" }
+            ],
+            "areaServed": "Worldwide",
+            "contactPoint": { "@type": "ContactPoint", "contactType": "Customer Support", "email": "support.br30trader@gmail.com", "telephone": "+91-6200986380", "areaServed": "Worldwide", "availableLanguage": ["Hindi", "English"] },
+            "sameAs": ["https://www.facebook.com/share/1DDJYGYYDf/", "https://www.instagram.com/br30Traderofficial", "https://www.youtube.com/@br30traderofficial", "https://t.me/+hBAT4kWo63A4ZWY1", "https://chat.whatsapp.com/B4t82SWBcgOIZTeQXp1wDI", "https://www.threads.com/@br30traderofficial", "https://x.com/MukeshKuma48159", "https://www.linkedin.com/in/mukeshraj-br30/"]
+          },
+          { "@type": "WebSite", "@id": "https://br30-algo-terminal-f.vercel.app/#website", "name": "BR30 Algo Terminal", "alternateName": ["BR30 Algo", "BR30 Algorithmic Trading Platform"], "url": "https://br30-algo-terminal-f.vercel.app/", "description": "Professional algorithmic trading platform for strategy building, backtesting, paper trading, broker connectivity, risk management and automation.", "publisher": { "@id": "https://br30-algo-terminal-f.vercel.app/#organization" }, "inLanguage": "en-IN", "potentialAction": { "@type": "SearchAction", "target": "https://br30-algo-terminal-f.vercel.app/?s={search_term_string}", "query-input": "required name=search_term_string" } },
+          { "@type": "SoftwareApplication", "@id": "https://br30-algo-terminal-f.vercel.app/#software", "name": "BR30 Algo Terminal", "applicationCategory": "FinanceApplication", "applicationSubCategory": "Algorithmic Trading Platform", "operatingSystem": "Web Browser", "url": "https://br30-algo-terminal-f.vercel.app/", "image": "https://br30-algo-terminal-f.vercel.app/android-chrome-512x512.png", "description": "Professional algorithmic trading platform for strategy building, backtesting, paper trading, risk management, broker connectivity and automated trade execution.", "publisher": { "@id": "https://br30-algo-terminal-f.vercel.app/#organization" }, "creator": { "@id": "https://br30-algo-terminal-f.vercel.app/#person" }, "areaServed": "Worldwide", "inLanguage": ["en", "hi"], "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "description": "Early Access" } }
         ]
       }
     </script>
     <script type="application/ld+json">
-      { "@context": "https://schema.org", "@type": "WebSite", "@id": "https://br30-algo-terminal-f.vercel.app/#website", "name": "BR30 Algo Terminal", "alternateName": "BR30 Algo", "url": "https://br30-algo-terminal-f.vercel.app/", "publisher": { "@id": "https://br30-algo-terminal-f.vercel.app/#organization" }, "inLanguage": "en-IN", "potentialAction": { "@type": "SearchAction", "target": "https://br30-algo-terminal-f.vercel.app/?s={search_term_string}", "query-input": "required name=search_term_string" } }
+      { "@context": "https://schema.org", "@type": "WebSite", "@id": "https://br30-algo-terminal-f.vercel.app/#website", "name": "BR30 Algo Terminal", "alternateName": ["BR30 Algo", "BR30 Algorithmic Trading Platform"], "url": "https://br30-algo-terminal-f.vercel.app/", "description": "Professional algorithmic trading platform for strategy building, backtesting, paper trading, risk management, broker connectivity and automated trading.", "publisher": { "@id": "https://br30-algo-terminal-f.vercel.app/#organization" }, "inLanguage": "en-IN", "potentialAction": { "@type": "SearchAction", "target": "https://br30-algo-terminal-f.vercel.app/?s={search_term_string}", "query-input": "required name=search_term_string" } }
     </script>
     <script type="application/ld+json">
-      { "@context": "https://schema.org", "@type": "WebPage", "@id": "https://br30-algo-terminal-f.vercel.app/#webpage", "url": "https://br30-algo-terminal-f.vercel.app/", "name": "BR30 Algo Terminal – Professional Algo Trading Platform", "description": "BR30 Algo Terminal is a professional algorithmic trading platform for strategy building, backtesting, paper trading, risk management, broker connectivity, and automated trading.", "isPartOf": { "@id": "https://br30-algo-terminal-f.vercel.app/#website" }, "about": { "@id": "https://br30-algo-terminal-f.vercel.app/#organization" }, "primaryImageOfPage": { "@type": "ImageObject", "url": "https://br30-algo-terminal-f.vercel.app/og-image.jpg" }, "inLanguage": "en-IN" }
+      { "@context": "https://schema.org", "@type": "WebPage", "@id": "https://br30-algo-terminal-f.vercel.app/#webpage", "url": "https://br30-algo-terminal-f.vercel.app/", "name": "BR30 Algo Terminal – Professional Algo Trading Platform", "description": "BR30 Algo Terminal is a professional algorithmic trading platform for strategy building, backtesting, paper trading, risk management, broker connectivity and automated trading.", "isPartOf": { "@id": "https://br30-algo-terminal-f.vercel.app/#website" }, "about": { "@id": "https://br30-algo-terminal-f.vercel.app/#organization" }, "mainEntity": { "@id": "https://br30-algo-terminal-f.vercel.app/#software" }, "primaryImageOfPage": { "@type": "ImageObject", "url": "https://br30-algo-terminal-f.vercel.app/og-image.jpg" }, "inLanguage": "en-IN" }
     </script>
     <script type="application/ld+json">
       {
@@ -78,33 +101,48 @@
         "@type": "Person",
         "@id": "https://br30-algo-terminal-f.vercel.app/#person",
         "name": "Mukesh Raj",
-        "alternateName": ["BR30 Trader Official", "BR30 Trader", "Mukesh Raj", "BR30 Algo Terminal Founder"],
+        "alternateName": ["Mukesh Kumar", "BR30 Trader Official", "BR30 Trader", "BR30 Founder", "BR30 Algo Terminal Founder"],
         "url": "https://br30-algo-terminal-f.vercel.app/",
         "image": "https://res.cloudinary.com/dw4imlekm/image/upload/v1780019117/1000146231_hlop8l.jpg",
-        "description": "Mukesh Raj is a professional trader, algorithmic trading system developer, web developer, and founder of BR30 Algo Terminal. He specializes in stock market trading, options trading, algorithmic trading, strategy automation, backtesting, paper trading, risk management, trading psychology, and web application development.",
+        "description": "Mukesh Raj is the founder of BR30 GROUP and creator of BR30 Algo Terminal. He develops algorithmic trading systems, trading tools, market scanners, web applications, automation platforms and trading education products.",
         "gender": "Male",
-        "birthDate": "2000-01-01",
-        "birthPlace": { "@type": "Place", "name": "Sitamarhi, Bihar, India" },
         "nationality": "Indian",
         "email": "support.br30trader@gmail.com",
         "telephone": "+91-6200986380",
-        "contactPoint": { "@type": "ContactPoint", "telephone": "+91-6200986380", "contactType": "customer support", "areaServed": "Worldwide", "availableLanguage": ["Hindi", "English"], "email": "support.br30trader@gmail.com" },
+        "contactPoint": { "@type": "ContactPoint", "telephone": "+91-6200986380", "contactType": "Customer Support", "areaServed": "Worldwide", "availableLanguage": ["Hindi", "English"], "email": "support.br30trader@gmail.com" },
         "sameAs": ["https://www.facebook.com/share/1DDJYGYYDf/", "https://www.instagram.com/br30Traderofficial", "https://www.youtube.com/@br30traderofficial", "https://t.me/+hBAT4kWo63A4ZWY1", "https://chat.whatsapp.com/B4t82SWBcgOIZTeQXp1wDI", "https://www.threads.com/@br30traderofficial", "https://x.com/MukeshKuma48159", "https://www.linkedin.com/in/mukeshraj-br30/"],
-        "jobTitle": ["Professional Trader", "Algorithmic Trading System Developer", "Founder", "Web Developer", "Trading Mentor"],
-        "worksFor": { "@type": "Organization", "name": "BR30 Algo Terminal", "url": "https://br30-algo-terminal-f.vercel.app/" },
-        "founderOf": { "@type": "Organization", "name": "BR30 Algo Terminal", "url": "https://br30-algo-terminal-f.vercel.app/" },
-        "brand": [{ "@type": "Brand", "name": "BR30 Algo Terminal" }],
-        "knowsAbout": ["Algorithmic Trading", "Stock Market", "Options Trading", "Backtesting", "Paper Trading", "Risk Management", "Trading Automation", "Trading Psychology", "Technical Analysis", "Price Action", "Trading Strategies", "Web Development"],
+        "jobTitle": ["Founder", "Professional Trader", "Algorithmic Trading Developer", "Trading Mentor", "Web Developer"],
+        "worksFor": { "@id": "https://br30-algo-terminal-f.vercel.app/#organization" },
+        "founderOf": [
+          { "@type": "Organization", "name": "BR30 GROUP", "url": "https://br-30-group-com.vercel.app/" },
+          { "@type": "Organization", "name": "BR30 Trader", "url": "https://my-frontend-eight-roan.vercel.app/" },
+          { "@type": "Organization", "name": "BR30 Market Scanner", "url": "https://br30marketscanner-com-frontade.vercel.app/" },
+          { "@type": "Organization", "name": "BR30 Algo Terminal", "url": "https://br30-algo-terminal-f.vercel.app/" },
+          { "@type": "Organization", "name": "BR30 Kart", "url": "https://br-30-kart.vercel.app/" },
+          { "@type": "Organization", "name": "BR30 FoodOS", "url": "https://br-30-food-os-f.vercel.app/" },
+          { "@type": "Organization", "name": "BR30 QR Studio", "url": "https://br-30-qr-studio-xi.vercel.app/" },
+          { "@type": "Organization", "name": "BR30 Algo", "url": "https://br30algo-com.vercel.app/" }
+        ],
+        "brand": [
+          { "@type": "Brand", "name": "BR30 Algo Terminal", "url": "https://br30-algo-terminal-f.vercel.app/" },
+          { "@type": "Brand", "name": "BR30 Trader", "url": "https://my-frontend-eight-roan.vercel.app/" },
+          { "@type": "Brand", "name": "BR30 Market Scanner", "url": "https://br30marketscanner-com-frontade.vercel.app/" },
+          { "@type": "Brand", "name": "BR30 Kart", "url": "https://br-30-kart.vercel.app/" },
+          { "@type": "Brand", "name": "BR30 FoodOS", "url": "https://br-30-food-os-f.vercel.app/" },
+          { "@type": "Brand", "name": "BR30 QR Studio", "url": "https://br-30-qr-studio-xi.vercel.app/" },
+          { "@type": "Brand", "name": "BR30 Algo", "url": "https://br30algo-com.vercel.app/" },
+          { "@type": "Brand", "name": "BR30 Founder", "url": "https://br30-com.vercel.app/" }
+        ],
+        "knowsAbout": ["Algorithmic Trading", "Trading Automation", "Stock Market", "Options Trading", "Backtesting", "Paper Trading", "Risk Management", "Technical Analysis", "Price Action", "Trading Psychology", "Trading Strategies", "Web Development"],
         "hasOccupation": [
-          { "@type": "Occupation", "name": "Algorithmic Trader" },
-          { "@type": "Occupation", "name": "Stock Trader" },
+          { "@type": "Occupation", "name": "Algorithmic Trading Developer" },
+          { "@type": "Occupation", "name": "Professional Trader" },
           { "@type": "Occupation", "name": "Web Developer" },
           { "@type": "Occupation", "name": "Trading Mentor" }
         ],
         "alumniOf": { "@type": "CollegeOrUniversity", "name": "Fakir Mohan University, Balasore, Odisha", "sameAs": "https://fmuniversity.nic.in/" },
-        "award": ["BR30 Algo Terminal Founder"],
         "address": { "@type": "PostalAddress", "addressLocality": "Whitefield", "addressRegion": "Bangalore, Karnataka", "addressCountry": "IN" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://br30-algo-terminal-f.vercel.app/" }
+        "mainEntityOfPage": { "@id": "https://br30-algo-terminal-f.vercel.app/#webpage" }
       }
     </script>
     <script type="application/ld+json">
@@ -113,6 +151,7 @@
         "@type": "ItemList",
         "@id": "https://br30-algo-terminal-f.vercel.app/#services",
         "name": "BR30 Algo Terminal Features",
+        "numberOfItems": 10,
         "itemListElement": [
           { "@type": "ListItem", "position": 1, "name": "Strategy Builder", "url": "https://br30-algo-terminal-f.vercel.app/" },
           { "@type": "ListItem", "position": 2, "name": "Backtesting", "url": "https://br30-algo-terminal-f.vercel.app/" },
@@ -135,31 +174,41 @@
         "@context": "https://schema.org",
         "@type": "Article",
         "@id": "https://br30-algo-terminal-f.vercel.app/#article",
-        "headline": "BR30 Algo Terminal – Professional Algorithmic Trading Platform",
+        "headline": "BR30 Algo Terminal | Professional Algorithmic Trading Platform for Strategy Building, Backtesting & Automated Trading",
         "alternativeHeadline": "BR30 Algo Terminal by Mukesh Raj",
-        "description": "BR30 Algo Terminal is a professional algorithmic trading platform developed by Mukesh Raj. It provides strategy building, backtesting, paper trading, broker connectivity, risk management, portfolio analytics, and automated trade execution.",
+        "description": "BR30 Algo Terminal is a professional algorithmic trading platform developed by Mukesh Raj. It provides strategy building, backtesting, paper trading, broker connectivity, risk management, portfolio analytics, automated trade execution and real-time market data.",
         "image": ["https://br30-algo-terminal-f.vercel.app/og-image.jpg"],
-        "author": { "@type": "Person", "@id": "https://br30-algo-terminal-f.vercel.app/#person", "name": "Mukesh Raj", "alternateName": ["BR30 Trader Official", "BR30 Trader"], "url": "https://br30-algo-terminal-f.vercel.app/", "image": "https://res.cloudinary.com/dw4imlekm/image/upload/v1780019117/1000146231_hlop8l.jpg", "jobTitle": ["Professional Trader", "Algorithmic Trading System Developer", "Founder", "Web Developer"] },
-        "publisher": { "@type": "Organization", "@id": "https://br30-algo-terminal-f.vercel.app/#organization", "name": "BR30 Algo Terminal", "url": "https://br30-algo-terminal-f.vercel.app/", "logo": { "@type": "ImageObject", "url": "https://br30-algo-terminal-f.vercel.app/android-chrome-512x512.png", "width": 512, "height": 512 } },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://br30-algo-terminal-f.vercel.app/" },
+        "author": { "@id": "https://br30-algo-terminal-f.vercel.app/#person" },
+        "publisher": { "@id": "https://br30-algo-terminal-f.vercel.app/#organization" },
+        "mainEntityOfPage": { "@id": "https://br30-algo-terminal-f.vercel.app/#webpage" },
         "datePublished": "2026-05-22T08:00:00+05:30",
         "dateModified": "2026-05-22T08:00:00+05:30",
-        "articleSection": ["Algorithmic Trading", "Backtesting", "Paper Trading", "Risk Management", "Trading Automation"],
-        "keywords": ["BR30 Algo Terminal", "Algorithmic Trading", "Algo Trading", "Trading Automation", "Strategy Builder", "Backtesting", "Paper Trading", "Risk Management", "Broker Connectivity", "Stock Market", "Options Trading", "Mukesh Raj"],
+        "articleSection": ["Algorithmic Trading", "Strategy Builder", "Backtesting", "Paper Trading", "Risk Management", "Trading Automation"],
+        "keywords": ["BR30 Algo Terminal", "Algorithmic Trading", "Algo Trading Platform", "Trading Automation", "Strategy Builder", "Backtesting", "Paper Trading", "Risk Management", "Broker Connectivity", "Portfolio Management", "Trade Execution", "Real-Time Market Data", "Options Trading", "Stock Market", "Mukesh Raj"],
         "about": [
           { "@type": "Thing", "name": "Algorithmic Trading" },
+          { "@type": "Thing", "name": "Strategy Builder" },
           { "@type": "Thing", "name": "Backtesting" },
           { "@type": "Thing", "name": "Paper Trading" },
           { "@type": "Thing", "name": "Risk Management" },
           { "@type": "Thing", "name": "Trading Automation" }
         ],
-        "mentions": [{ "@type": "SoftwareApplication", "name": "BR30 Algo Terminal", "url": "https://br30-algo-terminal-f.vercel.app/" }],
+        "mentions": [
+          { "@type": "SoftwareApplication", "name": "BR30 Algo Terminal", "url": "https://br30-algo-terminal-f.vercel.app/" },
+          { "@type": "Organization", "name": "BR30 Market Scanner", "url": "https://br30marketscanner-com-frontade.vercel.app/" },
+          { "@type": "Organization", "name": "BR30 Trader", "url": "https://my-frontend-eight-roan.vercel.app/" },
+          { "@type": "Organization", "name": "BR30 Kart", "url": "https://br-30-kart.vercel.app/" },
+          { "@type": "Organization", "name": "BR30 FoodOS", "url": "https://br-30-food-os-f.vercel.app/" },
+          { "@type": "Organization", "name": "BR30 QR Studio", "url": "https://br-30-qr-studio-xi.vercel.app/" },
+          { "@type": "Organization", "name": "BR30 Founder", "url": "https://br30-com.vercel.app/" },
+          { "@type": "Organization", "name": "BR30 Algo", "url": "https://br30algo-com.vercel.app/" }
+        ],
         "isPartOf": { "@id": "https://br30-algo-terminal-f.vercel.app/#website" },
         "sameAs": ["https://www.facebook.com/share/1DDJYGYYDf/", "https://www.instagram.com/br30Traderofficial", "https://www.youtube.com/@br30traderofficial", "https://t.me/+hBAT4kWo63A4ZWY1", "https://chat.whatsapp.com/B4t82SWBcgOIZTeQXp1wDI", "https://www.threads.com/@br30traderofficial", "https://x.com/MukeshKuma48159", "https://www.linkedin.com/in/mukeshraj-br30/"],
         "inLanguage": ["en-IN", "en-US"],
         "copyrightHolder": { "@id": "https://br30-algo-terminal-f.vercel.app/#organization" },
         "copyrightYear": "2026",
-        "genre": ["Finance", "Algorithmic Trading", "Trading Software", "Technology"]
+        "genre": ["Finance", "Algorithmic Trading", "Trading Software", "Financial Technology", "Trading Automation"]
       }
     </script>
     <script type="application/ld+json">
