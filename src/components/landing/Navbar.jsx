@@ -21,7 +21,7 @@ export default function Navbar() {
   ];
 
   const moreItems = [
-    { name: "About", to: ROUTES.ABOUT },
+    { name: "About Us", to: ROUTES.ABOUT },
     { name: "What’s New", to: ROUTES.WHATS_NEW },
     { name: "Insights", to: ROUTES.INSIGHTS },
     { name: "Roadmap", to: ROUTES.ROADMAP },
