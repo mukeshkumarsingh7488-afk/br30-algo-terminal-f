@@ -139,11 +139,11 @@ export default function Footer() {
 
           <div className="footer-links">
             <h4>Legal</h4>
-            <Link to={ROUTES.ABOUT}>About Us</Link>
-            <Link to={ROUTES.PRIVACY_POLICY}>Privacy Policy</Link>
             <Link to={ROUTES.TERMS_CONDITIONS}>Terms & Conditions</Link>
+            <Link to={ROUTES.PRIVACY_POLICY}>Privacy Policy</Link>
             <Link to={ROUTES.REFUND_POLICY}>Refund Policy</Link>
             <Link to={ROUTES.DISCLAIMER}>Disclaimer</Link>
+            <Link to={ROUTES.ABOUT}>About Us</Link>
           </div>
 
           <div className="footer-links footer-contact">
