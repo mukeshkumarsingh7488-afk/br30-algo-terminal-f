@@ -33,8 +33,8 @@ const brokers = [
   },
   {
     name: "Groww",
-    status: "Supportade",
-    color: "orange",
+    status: "Supported",
+    color: "green",
   },
   {
     name: "Shoonya",
