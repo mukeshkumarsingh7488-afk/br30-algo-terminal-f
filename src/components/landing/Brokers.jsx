@@ -2,6 +2,11 @@ import { BadgeCheck, Shield, ArrowRight, Landmark } from "lucide-react";
 
 const brokers = [
   {
+    name: "Delta Exchange",
+    status: "Supported",
+    color: "green",
+  },
+  {
     name: "Upstox",
     status: "Supported",
     color: "green",
@@ -18,18 +23,28 @@ const brokers = [
   },
   {
     name: "Angel One",
-    status: "Coming Soon",
-    color: "orange",
+    status: "Supported",
+    color: "green",
   },
   {
     name: "Fyers",
-    status: "Coming Soon",
+    status: "Supported",
+    color: "green",
+  },
+  {
+    name: "Groww",
+    status: "Supportade",
     color: "orange",
   },
   {
-    name: "Delta Exchange",
-    status: "Supported",
-    color: "green",
+    name: "Shoonya",
+    status: "Roadmap",
+    color: "purple",
+  },
+  {
+    name: "5Paisa",
+    status: "Roadmap",
+    color: "purple",
   },
 ];
 

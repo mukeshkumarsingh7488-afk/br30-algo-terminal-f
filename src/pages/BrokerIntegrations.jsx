@@ -5,13 +5,13 @@ import Footer from "../components/landing/Footer";
 import { ROUTES } from "../constants/routes";
 
 const brokers = [
-  { name: "Upstox", status: "Supported", type: "Live Core", color: "green", features: ["OAuth Ready", "Token Flow", "Order API"] },
-  { name: "Zerodha", status: "Coming Soon", type: "Planned", color: "orange", features: ["Kite API", "OAuth", "Order Flow"] },
-  { name: "Dhan", status: "Coming Soon", type: "Planned", color: "orange", features: ["API Ready", "Data Flow", "Orders"] },
-  { name: "Angel One", status: "Coming Soon", type: "Planned", color: "orange", features: ["SmartAPI", "OAuth", "Trading"] },
-  { name: "Fyers", status: "Coming Soon", type: "Planned", color: "orange", features: ["API Connect", "Market Data", "Orders"] },
-  { name: "Groww", status: "Roadmap", type: "Future", color: "purple", features: ["Research", "Integration", "Testing"] },
-  { name: "Alice Blue", status: "Roadmap", type: "Future", color: "purple", features: ["API Study", "Broker Hub", "Automation"] },
+  { name: "Delta Exchange", status: "Supported", type: "Live", color: "green", features: ["API Study", "Broker Hub", "Automation"] },
+  { name: "Upstox", status: "Supported", type: "Live", color: "green", features: ["OAuth Ready", "Token Flow", "Order API"] },
+  { name: "Zerodha", status: "Supported", type: "Live", color: "green", features: ["Kite API", "OAuth", "Order Flow"] },
+  { name: "Dhan", status: "Supported", type: "Live", color: "green", features: ["API Ready", "Data Flow", "Orders"] },
+  { name: "Angel One", status: "Supported", type: "Live", color: "green", features: ["SmartAPI", "OAuth", "Trading"] },
+  { name: "Fyers", status: "Supported", type: "Live", color: "green", features: ["API Connect", "Market Data", "Orders"] },
+  { name: "Groww", status: "Supported", type: "Live", color: "green", features: ["Research", "Integration", "Testing"] },
   { name: "Shoonya", status: "Roadmap", type: "Future", color: "purple", features: ["API Study", "Trading Flow", "Execution"] },
   { name: "5Paisa", status: "Roadmap", type: "Future", color: "purple", features: ["API Study", "Token Flow", "Orders"] },
 ];
