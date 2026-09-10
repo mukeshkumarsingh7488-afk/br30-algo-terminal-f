@@ -4,21 +4,15 @@ import { THEME_STORAGE_KEY } from "../config/theme";
 const ThemeContext = createContext(null);
 
 const getInitialTheme = () => {
-  // Temporarily disabled: saved theme from localStorage
-  // const savedTheme = localStorage.getItem(THEME_STORAGE_KEY);
+  const savedTheme = localStorage.getItem(THEME_STORAGE_KEY);
 
-  // if (savedTheme === "dark" || savedTheme === "light") {
-  //   return savedTheme;
-  // }
+  if (savedTheme === "dark" || savedTheme === "light") {
+    return savedTheme;
+  }
 
-  // Temporarily disabled: system dark mode detection
-  // const prefersDark =
-  //   window.matchMedia?.("(prefers-color-scheme: dark)")?.matches;
+  const prefersDark = window.matchMedia?.("(prefers-color-scheme: dark)")?.matches;
 
-  // return prefersDark ? "dark" : "light";
-
-  // Default theme
-  return "light";
+  return prefersDark ? "dark" : "light";
 };
 
 export function ThemeProvider({ children }) {
