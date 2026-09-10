@@ -4,15 +4,21 @@ import { THEME_STORAGE_KEY } from "../config/theme";
 const ThemeContext = createContext(null);
 
 const getInitialTheme = () => {
-  const savedTheme = localStorage.getItem(THEME_STORAGE_KEY);
+  // Temporarily disabled: saved theme from localStorage
+  // const savedTheme = localStorage.getItem(THEME_STORAGE_KEY);
 
-  if (savedTheme === "dark" || savedTheme === "light") {
-    return savedTheme;
-  }
+  // if (savedTheme === "dark" || savedTheme === "light") {
+  //   return savedTheme;
+  // }
 
-  const prefersDark = window.matchMedia?.("(prefers-color-scheme: dark)")?.matches;
+  // Temporarily disabled: system dark mode detection
+  // const prefersDark =
+  //   window.matchMedia?.("(prefers-color-scheme: dark)")?.matches;
 
-  return prefersDark ? "dark" : "light";
+  // return prefersDark ? "dark" : "light";
+
+  // Default theme
+  return "light";
 };
 
 export function ThemeProvider({ children }) {
@@ -35,7 +41,7 @@ export function ThemeProvider({ children }) {
       toggleTheme,
       setTheme,
     }),
-    [theme]
+    [theme],
   );
 
   return <ThemeContext.Provider value={value}>{children}</ThemeContext.Provider>;
