@@ -126,6 +126,7 @@ export default function Footer() {
             <a href="#brokers">Brokers</a>
             <a href="#pricing">Pricing</a>
             <a href="#faq">FAQ</a>
+            <a href="#home">Home</a>
           </div>
 
           <div className="footer-links">
@@ -181,7 +182,7 @@ export default function Footer() {
 
         <div className="landing-container footer-newsletter">
           <div>
-            <h3>Join 3,000+ Traders</h3>
+            <h3>Join 6,200+ Traders</h3>
             <p>Get BR30 insights, platform updates and strategy ideas in your inbox.</p>
           </div>
 
@@ -221,9 +222,9 @@ export default function Footer() {
 
             <div>
               <span>
-                <i className="fa-solid fa-code"></i> Version 1.0.0
+                <i className="fa-solid fa-code"></i> Version 2.0.0
               </span>
-              <small>Build v1.0.0 Production</small>
+              <small>Build v2.0.0 Production</small>
             </div>
           </div>
 
