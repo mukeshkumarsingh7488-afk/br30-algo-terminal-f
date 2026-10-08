@@ -234,8 +234,8 @@ export default function Disclaimer() {
 
                     <p>If you have questions regarding this Disclaimer or the risks associated with BR30 Algo Terminal, please contact the BR30 Algo Team.</p>
 
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=support.br30trader@gmail.com&su=Disclaimer%20Query&body=Hello%20BR30%20Algo%20Team,%0A%0AI%20have%20a%20question%20regarding%20the%20Disclaimer.%0A%0AQuestion:%20%0A%0AThanks" target="_blank" rel="noopener noreferrer">
-                      support.br30trader@gmail.com
+                    <a href="https://br30crm-com-f.vercel.app/public/forms/6ac4a4ce8ab8658ebe3748f7/br30-algo-terminal-support-request?utm_source=br30-algo-terminal-web&utm_medium=website&lead_source=br30-algo-terminal-web&form_id=6ac743646780cbc6335f9be7&source_id=6ac743a96780cbc6335f9bf0" target="_blank" rel="noopener noreferrer">
+                      Submit a Support Request
                     </a>
                   </div>
                 </div>
